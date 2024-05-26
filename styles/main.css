@@ -13,6 +13,7 @@
     src: url(../assets/fonts/Poppins-Regular.ttf);
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -79,7 +80,9 @@ html {
     padding: 20px 0 0;
 }
 
-.about-me .about-me-content .about-me-content-title {
+.about-me .about-me-content .about-me-content-title,
+.footer .contacts .contacts-title
+{
     margin: 0 0 10px;
     color: #ffffff;
     font-size: 20px;
@@ -92,6 +95,57 @@ html {
     color: #ffffff;
     font-family: Roboto, sans-serif;
 }
+
+.footer {
+    border: solid aqua;
+    padding: 35px 0 0;
+}
+
+.aside-container {
+    border: solid white;
+}
+
+.contacts {
+    border: solid purple;
+}
+
+.contacts .contacts-list {
+    padding: 0;
+    list-style: none;
+}
+
+.contacts .contacts-list .contacts-address {
+    font-style: normal;
+}
+
+.contacts .contacts-list .contacts-address .contacts-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts .contacts-list .contacts-address .contacts-link .contacts-icon {
+    padding: 5px;
+    background-color: #FC413C;
+    margin-right: 8px;
+    border-radius: 5%;
+}
+
+.contacts .contacts-list .contacts-list-item {
+    margin-bottom: 5px;
+}
+
+.contacts .contacts-list .contacts-list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
 
 
 
