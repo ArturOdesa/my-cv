@@ -133,6 +133,7 @@ html {
     font-size: 10px;
     display: flex;
     align-items: center;
+    transition: 0.3s 0.02s linear;
 }
 
 .contacts .contacts-list .contacts-address .contacts-link .contacts-icon,
@@ -156,11 +157,26 @@ html {
 .contacts .contacts-list .contacts-list-item,
 .social-media .social-media-list .social-media-list-item{
     margin-bottom: 5px;
+    transition: 0.3s 0.2s linear;
+
 }
 
 .contacts .contacts-list .contacts-list-item:last-of-type,
 .social-media .social-media-list .social-media-list-item:last-of-type{
     margin-bottom: 0;
+}
+
+.contacts-list-item:hover,
+.social-media-list-item:hover{
+    background-color: #FC413C;
+    /*padding: 3px;*/
+}
+
+.contacts-link:hover,
+.social-media-link:hover
+{
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 
