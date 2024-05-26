@@ -169,7 +169,6 @@ html {
 .contacts-list-item:hover,
 .social-media-list-item:hover{
     background-color: #FC413C;
-    /*padding: 3px;*/
 }
 
 .contacts-link:hover,
