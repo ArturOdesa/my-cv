@@ -81,7 +81,8 @@ html {
 }
 
 .about-me .about-me-content .about-me-content-title,
-.footer .contacts .contacts-title
+.footer .contacts .contacts-title,
+.footer .social-media .social-media-title
 {
     margin: 0 0 10px;
     color: #ffffff;
@@ -97,6 +98,10 @@ html {
 }
 
 .footer {
+    border: solid yellow;
+}
+
+.contacts, .social-media {
     border: solid aqua;
     padding: 35px 0 0;
 }
@@ -109,16 +114,20 @@ html {
     border: solid purple;
 }
 
-.contacts .contacts-list {
+.contacts .contacts-list,
+.social-media .social-media-list {
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
-.contacts .contacts-list .contacts-address {
+.contacts .contacts-list .contacts-address,
+.social-media .social-media-list .social-media-address{
     font-style: normal;
 }
 
-.contacts .contacts-list .contacts-address .contacts-link {
+.contacts .contacts-list .contacts-address .contacts-link,
+.social-media .social-media-list .social-media-address .social-media-link{
     text-decoration: none;
     color: #ffffff;
     font-size: 10px;
@@ -126,18 +135,31 @@ html {
     align-items: center;
 }
 
-.contacts .contacts-list .contacts-address .contacts-link .contacts-icon {
+.contacts .contacts-list .contacts-address .contacts-link .contacts-icon,
+.social-media .social-media-list .social-media-address .social-media-link .social-media-icon{
     padding: 5px;
     background-color: #FC413C;
     margin-right: 8px;
     border-radius: 5%;
 }
 
-.contacts .contacts-list .contacts-list-item {
+.social-media .social-media-list .social-media-address .social-media-link .facebook {
+    padding: 7px 9.5px;
+}
+
+.social-media .social-media-list .social-media-address .social-media-link .linkedin,
+.social-media .social-media-list .social-media-address .social-media-link .telegram
+{
+    width: 15px;
+}
+
+.contacts .contacts-list .contacts-list-item,
+.social-media .social-media-list .social-media-list-item{
     margin-bottom: 5px;
 }
 
-.contacts .contacts-list .contacts-list-item:last-of-type {
+.contacts .contacts-list .contacts-list-item:last-of-type,
+.social-media .social-media-list .social-media-list-item:last-of-type{
     margin-bottom: 0;
 }
 
