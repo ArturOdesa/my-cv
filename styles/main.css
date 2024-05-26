@@ -19,7 +19,7 @@ html {
 
 .body {
     margin: 0;
-    font-family: Poppins sans-serif;
+    font-family: Poppins;
 }
 
 .wrapper {
@@ -28,22 +28,54 @@ html {
 }
 
 .aside {
-    width: 35%;
-    background-color: #1E1E1E;
+    width: 40%;
+    background-color: #272B2F;
 }
 
 .main {
-    width: 65%;
+    width: 60%;
 }
 
 .aside-container {
     padding: 0 35px;
-    border: solid gold;
 }
 
-.header {
+.aside .header {
     padding-top: 20px;
     border: solid green;
 }
+
+.aside .header .header-content {
+    text-align: center;
+}
+
+.aside .header .header-content .profile-photo {
+    width: 100%;
+}
+
+.aside .header .header-content .header-title {
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 26px;
+    margin: 10px 0 15px;
+    border: solid orange;
+    text-align: left;
+}
+
+.aside .header .header-content .header-specialization {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FEBC2C;
+    margin: 0 0 15px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.aside .header .header-content {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+}
+
+
+
 
 
