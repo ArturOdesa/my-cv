@@ -13,5 +13,27 @@
     src: url(../assets/fonts/Poppins-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0;
+    font-family: Poppins sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    border: solid  red;
+}
+
+.aside {
+    width: 35%;
+    background-color: #1E1E1E;
+}
+
+.main {
+    width: 65%;
+}
 
 
