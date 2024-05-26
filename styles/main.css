@@ -36,4 +36,9 @@ html {
     width: 65%;
 }
 
+.aside-container {
+    padding: 0 35px;
+    border: solid gold;
+}
+
 
