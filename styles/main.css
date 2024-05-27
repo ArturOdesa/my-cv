@@ -352,7 +352,6 @@ margin-top: 10px;
     }
     .aside {
         width: 100%;
-        /*text-align: center;*/
     }
     .main {
         width: 100%;
@@ -373,9 +372,6 @@ margin-top: 10px;
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-    .aside-container {
-        padding: 0 5px;
     }
 
     .aside .header .header-content .header-title {
@@ -399,9 +395,6 @@ margin-top: 10px;
 }
 
 @media (max-width: 400px) {
-    .main-container {
-        padding: 0 10px;
-    }
 .contacts-link, .social-media-link {
     display: flex;
     flex-direction: column;
