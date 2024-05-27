@@ -133,7 +133,7 @@ html {
     font-size: 10px;
     display: flex;
     align-items: center;
-    transition: 0.3s 0.02s linear;
+    transition: 0.1s 0.1s linear;
 }
 
 .contacts .contacts-list .contacts-address .contacts-link .contacts-icon,
@@ -157,7 +157,7 @@ html {
 .contacts .contacts-list .contacts-list-item,
 .social-media .social-media-list .social-media-list-item{
     margin-bottom: 5px;
-    transition: 0.3s 0.2s linear;
+    transition: 0.1s 0.1s linear;
 
 }
 
@@ -191,15 +191,17 @@ html {
     padding: 0 20px 0 25px;
 }
 
-.skills-title-holder {
+.skills-title-holder,
+.education-title-holder {
     width: 100%;
     text-align: center;
     padding: 8px 0;
     background-color: #FEBC2C;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
-.skills-title {
+.skills-title,
+.education-title {
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
@@ -264,6 +266,38 @@ padding: 10px 0 0;
     width: 90%;
 }
 
+.education {
+    border: solid indigo;
+    padding: 15px 0 0;
+}
+
+.education-school {
+margin-top: 10px;
+    padding: 16px 8px;
+    background-color: rgba(253, 109, 174, 0.2);
+
+}
+
+.education-school-title {
+    margin: 0 0 5px;
+    font-size: 10px;
+}
+
+.education-school-period,
+.education-school-desc {
+    color: #333333;
+    font-size: 10px;
+    margin: 0 0 5px;
+}
+
+.education-school-link {
+    text-decoration: none;
+    color: #333333;
+}
+
+.education-school-link:hover {
+    text-decoration: underline;
+}
 
 
 
