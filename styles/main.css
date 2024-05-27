@@ -347,6 +347,19 @@ margin-top: 10px;
     .skills-technology-knowledge-outer {
         width: 50%;
     }
+    .wrapper {
+        flex-direction: column;
+    }
+    .aside {
+        width: 100%;
+        /*text-align: center;*/
+    }
+    .main {
+        width: 100%;
+    }
+    .aside .header .header-content .profile-photo {
+        width: 50%;
+    }
 }
 
 @media (max-width: 620px) {
