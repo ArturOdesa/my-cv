@@ -178,6 +178,93 @@ html {
     font-weight: 700;
 }
 
+.main {
+    border: solid blue;
+}
+
+.skills {
+    border: solid brown;
+    padding: 20px 0 0;
+}
+
+.main-container {
+    padding: 0 20px 0 25px;
+}
+
+.skills-title-holder {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    background-color: #FEBC2C;
+    border-radius: 8px;
+}
+
+.skills-title {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.skills-ability-cards-holder {
+padding: 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.skills-ability-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.skills-technology {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+    width: 10%;
+}
+
+.skills-ability-percentage {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.skills-technology-knowledge-outer {
+    height: 10px;
+    background-color: #FEBC2C;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.skills-technology-knowledge-inner {
+    height: 10px;
+    background-color: #272B2F;
+
+    border-radius: 10px;
+}
+
+.html, .css, .scum {
+    width: 85%;
+}
+
+.javascript, .react {
+    width: 70%;
+}
+
+.git {
+    width: 75%;
+}
+
+.teamwork{
+    width: 90%;
+}
+
+
 
 
 
