@@ -252,8 +252,12 @@ padding: 10px 0 0;
     width: 90%;
 }
 
-.education, .projects {
+.education {
     padding: 15px 0 0;
+}
+
+.projects {
+    padding: 15px 0;
 }
 
 .education-school,
