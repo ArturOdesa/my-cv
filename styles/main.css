@@ -236,19 +236,23 @@ padding: 10px 0 0;
     border-radius: 10px;
 }
 
-.html, .css, .scum {
+.scum {
     width: 85%;
 }
 
-.javascript, .react {
+.react {
     width: 70%;
 }
 
-.git {
+.javascript {
     width: 75%;
 }
 
-.teamwork{
+.git {
+    width: 80%;
+}
+
+.html, .css, .teamwork{
     width: 90%;
 }
 
