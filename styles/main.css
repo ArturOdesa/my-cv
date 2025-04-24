@@ -241,19 +241,23 @@ padding: 10px 0 0;
 }
 
 .react {
-    width: 70%;
-}
-
-.javascript {
-    width: 75%;
-}
-
-.git {
     width: 80%;
 }
 
-.html, .css, .teamwork{
+.sql {
+    width: 75%;
+}
+
+.javascript {
     width: 90%;
+}
+
+.git {
+    width: 85%;
+}
+
+.html, .css, .teamwork{
+    width: 95%;
 }
 
 .education {
