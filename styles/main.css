@@ -236,28 +236,21 @@ padding: 10px 0 0;
     border-radius: 10px;
 }
 
-.scum {
+.scum, .sql {
     width: 85%;
 }
 
-.react {
-    width: 80%;
+
+.javascript, .teamwork {
+    width: 95%;
 }
 
-.sql {
-    width: 75%;
-}
-
-.javascript {
+.git, .react {
     width: 90%;
 }
 
-.git {
-    width: 85%;
-}
-
-.html, .css, .teamwork{
-    width: 95%;
+.html, .css {
+    width: 100%;
 }
 
 .education {
